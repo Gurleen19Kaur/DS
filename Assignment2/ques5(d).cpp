@@ -13,7 +13,7 @@ int main(){
 		cin>>a[i];
 	}
 	int k=0;
-	 cout<<" lower triangular matrix \n"; // to print the array elements
+	 cout<<" upper triangular matrix \n"; // to print the array elements
 	 for(i=0;i<n;i++){
 	 	for(j=0;j<n;j++){
 	 		if(i>j){
