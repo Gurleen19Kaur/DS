@@ -11,14 +11,15 @@ int main(){
 		
 		
 
-		//duplicating two
+	//duplicating two
 		for(i=0;i<n-1;i++){
 			if(a[i]==2){
-				for(int j=n-1;j>i;j--){
+				for(int j=n;j>i;j--){
 					a[j]=a[j-1];
 					}
 				a[i+1]=2;
 				i++;
+				n=n+1;
 			}
 		}
 		cout<<"final array";
